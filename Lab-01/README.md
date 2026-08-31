@@ -59,7 +59,6 @@ The successful payload manipulated the backend SQL query so that the authenticat
 | PortSwigger Web Security Academy | Intentionally vulnerable web security labs (browser-based, no installation required) |
 | Microsoft Edge | Web browser used to access and interact with the labs |
 
-> **Note:** Burp Suite Community was **not** used in this lab — all testing was done directly through the browser.
 
 ## Key Takeaways
 
@@ -69,13 +68,6 @@ The successful payload manipulated the backend SQL query so that the authenticat
 4. **Defense is straightforward** — the root cause is string concatenation in SQL queries. The fix (parameterized queries) is well-established and should be the default in any application that uses a database.
 5. **Hands-on practice cements understanding** — reading about SQL injection is different from actually exploiting it in a controlled lab environment and seeing how each payload behaves.
 
-## Evidence
-
-- **Lab completion status:** ✅ Solved (green "LAB Solved" badge on PortSwigger Web Security Academy)
-- **Date solved:** 2026-08-30
-- **Evidence location:** PortSwigger Web Security Academy — lab history
-
-> **Screenshot:** Not included at this time. Can be added later if desired (crop out any personal information before publishing).
 
 ## Conclusion
 
