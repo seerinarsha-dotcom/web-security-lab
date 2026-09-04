@@ -9,7 +9,15 @@
   
 ### Lab 02 – SQL Injection in WHERE Clause
 * Learned how SQL injection can manipulate WHERE clauses to bypass data filtering.
-* Practiced tautology-based SQL injection using OR 1=1 and SQL comments.
+* Practiced tautology-based SQL injection using OR+1=1 and SQL comments.
 * Used URL parameters to inject SQL directly through the browser.
 * Successfully retrieved hidden/filtered data from the application.
 * Learned that parameterized queries/prepared statements prevent SQL injection.
+
+###### Lab 03 – SQL Injection UNION Attack
+
+* Learned how **UNION-based SQL injection** attacks work.
+* Used `UNION+SELECT+NULL` to determine the number of columns returned by the query.
+* Practiced intercepting and modifying requests using **Burp Suite Repeater**.
+* Successfully determined that the vulnerable query returned **3 columns**.
+* Learned why correct column count and **parameterized queries** are important for SQL injection security.
