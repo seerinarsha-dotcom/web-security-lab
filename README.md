@@ -14,7 +14,7 @@
 * Successfully retrieved hidden/filtered data from the application.
 * Learned that parameterized queries/prepared statements prevent SQL injection.
 
-###### Lab 03 – SQL Injection UNION Attack
+### Lab 03 – SQL Injection UNION Attack
 
 * Learned how **UNION-based SQL injection** attacks work.
 * Used `UNION+SELECT+NULL` to determine the number of columns returned by the query.
