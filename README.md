@@ -21,3 +21,13 @@
 * Practiced intercepting and modifying requests using **Burp Suite Repeater**.
 * Successfully determined that the vulnerable query returned **3 columns**.
 * Learned why correct column count and **parameterized queries** are important for SQL injection security.
+
+### Lab 04 – Vulnerability Scanner (Mini Project)
+
+* Built a Python network scanner that detects open ports, grabs service banners, and performs OS/vulnerability detection via Nmap.
+* Implemented a TCP port scanner using Python's `socket` library — iterates a port range and reports open ports.
+* Implemented banner grabbing — connects to open ports and reads the initial service response.
+* Integrated `python-nmap` to run OS detection (`-O`), service version detection (`-sV`), and vulnerability scripts (`--script=vuln`).
+* Generated a structured `scan_report.txt` with findings: open ports, OS guesses with accuracy scores, and vulnerability results.
+* Scanned an authorized target (`10.136.3.136`) — found port 53 (DNS) open, OS fingerprinted as Android/Linux-based embedded device, no vulnerabilities detected.
+* Learned the importance of authorization before scanning, and how bannerless services (like DNS) limit version detection.
