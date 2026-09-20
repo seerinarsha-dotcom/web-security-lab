@@ -1,6 +1,0 @@
-# Local database — do not commit
-password_history.db
-
-# Python cache
-__pycache__/
-*.pyc
